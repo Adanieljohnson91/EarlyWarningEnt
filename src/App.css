@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.main-view {
+  height: 80vh;
+  border: solid black 1px;
+  margin-left: 5em;
+  margin-right: 5em;
+  background-color: #3b3d31;
   color: white;
+  overflow: scroll;
+  justify-content: center;
 }
-
-.App-link {
-  color: #61dafb;
+.main-view::-webkit-scrollbar{
+  display: none;
 }
+.footer {
+  border: solid black 1px;
+  height: 15vh;
+  margin-left: 5em;
+  margin-right: 5em;
+  border-top: solid rgb(0, 0, 0) 7px;
+}
+.header{
+  border-bottom: 7px solid black;
+  height: auto;
+  background-color: #343a40;
+  margin-left: 5em;
+  margin-right: 5em;
+  
+}
+@media (max-width: 1050px) {
+  .main-view {
+    height: vh;
+    width: 100vw;
+    border-top: -10px black solid;
+    border-bottom: -10px rgb(255, 3, 3) solid;
+  margin-left: 0em;
+  margin-right: 0em;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
   }
-  to {
-    transform: rotate(360deg);
+  .footer {
+    border-top: solid rgb(0, 0, 0) 7px;
+    width: 100vw;
+    height: 15vh;
+    
+  margin-left: 0em;
+  margin-right: 0em;
   }
+  .header{
+    height: auto;
+    width: 100vw;
+    background-color: #343a40;
+    
+  margin-left: 0em;
+  margin-right: 0em;
+  }
+}
+.background {
+  background-image: url('./assets/images/Cream_Texture.png');
 }

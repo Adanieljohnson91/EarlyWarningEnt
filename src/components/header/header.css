@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@media only screen and (min-width: 350px) {
+  .colc-xs-1 {
+    width: 8.33%;
+  }
+  .colc-xs-2 {
+    width: 16.66%;
+  }
+  .colc-xs-3 {
+    width: 25%;
+  }
+  .colc-xs-4 {
+    width: 33.33%;
+  }
+  .colc-xs-5 {
+    width: 41.66%;
+  }
+  .colc-xs-6 {
+    width: 50%;
+  }
+  .colc-xs-7 {
+    width: 58.33%;
+  }
+  .colc-xs-8 {
+    width: 66.66%;
+  }
+  .colc-xs-9 {
+    width: 75%;
+  }
+  .colc-xs-10 {
+    width: 83.33%;
+  }
+  .colc-xs-11 {
+    width: 91.66%;
+  }
+  .colc-xs-12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .colc-s-1 {
+    width: 8.33%;
+  }
+  .colc-s-2 {
+    width: 16.66%;
+  }
+  .colc-s-3 {
+    width: 25%;
+  }
+  .colc-s-4 {
+    width: 33.33%;
+  }
+  .colc-s-5 {
+    width: 41.66%;
+  }
+  .colc-s-6 {
+    width: 50%;
+  }
+  .colc-s-7 {
+    width: 58.33%;
+  }
+  .colc-s-8 {
+    width: 66.66%;
+  }
+  .colc-s-9 {
+    width: 75%;
+  }
+  .colc-s-10 {
+    width: 83.33%;
+  }
+  .colc-s-11 {
+    width: 91.66%;
+  }
+  .colc-s-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .colc-1 {
+    width: 8.33%;
+  }
+  .colc-2 {
+    width: 16.66%;
+  }
+  .colc-3 {
+    width: 25%;
+  }
+  .colc-4 {
+    width: 33.33%;
+  }
+  .colc-5 {
+    width: 41.66%;
+  }
+  .colc-6 {
+    width: 50%;
+  }
+  .colc-7 {
+    width: 58.33%;
+  }
+  .colc-8 {
+    width: 66.66%;
+  }
+  .colc-9 {
+    width: 75%;
+  }
+  .colc-10 {
+    width: 83.33%;
+  }
+  .colc-11 {
+    width: 91.66%;
+  }
+  .colc-12 {
+    width: 100%;
+  }
+}
+
+.background {
+  background-image: url("../../assets/images/Cream_Texture.png");
+}
+
+.home-button {
+  background-image: url("../../assets/images/Home_Native.png");
+  height: 50px;
+  min-width: 100px;
+}
+.p-1 {
+  margin: .5rem;
+  padding-top: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-family: 'Special Elite', cursive;
+  font-size: x-large;
+  outline: none;
+  border-width: 0px;
+  align-self: center;
+}
+.p-1:hover{
+    background-color: #c1271d;
+}
+.active{
+    background-color: #c1271d;
+    outline: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+[className*="col-"] {
+  display: flex;
+
+  width: 100%;
+}
+.justify-content-center {
+    flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+.justify-links {
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.logo {
+    height: auto;
+    width: 50%;
+}
+button { 
+  letter-spacing: 8px;
+}

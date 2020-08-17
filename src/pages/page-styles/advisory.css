@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+h2 {
+    font-family: 'Special Elite', cursive;
+    background-color: black;
+    outline: white 4px;
+}
+.exec-img {
+    box-shadow: rgb(44, 6, 6) 0 0 4px;
+}
