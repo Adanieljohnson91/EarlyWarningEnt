@@ -14,10 +14,11 @@
 }
 .footer {
   border: solid black 1px;
-  height: 15vh;
+  height: auto;
   margin-left: 5em;
   margin-right: 5em;
   border-top: solid rgb(0, 0, 0) 7px;
+  padding-bottom: 2em;
 }
 .header{
   border-bottom: 7px solid black;
@@ -41,8 +42,8 @@
   .footer {
     border-top: solid rgb(0, 0, 0) 7px;
     width: 100vw;
-    height: 15vh;
-    
+    height: auto;
+    padding-bottom: 2em;
   margin-left: 0em;
   margin-right: 0em;
   }

@@ -1,7 +1,7 @@
 import React from 'react';
 import "./page-styles/advisory.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+const DISCORD_IMG = require('../assets/images/Discord.png');
 
 const AdvisoryPage = () =>{
     return (
@@ -95,7 +95,7 @@ const AdvisoryPage = () =>{
         {" "}
         <a href="https://discord.gg/0xis5geZdI3LPQle" target="_blank">
           <img
-            src="images/discord.png"
+            src={DISCORD_IMG}
             style={{ width: "50%" }}
             alt="Cold Furnace Discord"
           />
@@ -114,7 +114,7 @@ const AdvisoryPage = () =>{
       </div>
     </div>
   </div>
-</div>;
+</div>
 
      </>
 

@@ -1,4 +1,29 @@
 .background {
     background-image: url('../../assets/images/Cream_Texture.png');
     height: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.center {
+    align-content: center;
+    text-align: center;
+}
+.image {
+    height: auto;
+    width: 15vw;
+    max-width: 200px;
+    display: flex;
+}
+.image2 {
+    height: 99%;
+    width: 9.5vw;
+    max-width: 200px;
+    display: flex;
+}
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -5%;
 }

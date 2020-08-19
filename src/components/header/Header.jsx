@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import Routes from "../../routes/Routes";
 import './header.css';
 const LOGO = require('../../assets/images/EW_Logo.png')
-const Header = () => {
+const Header = (props) => {
     let index = 0;
     const links = Routes.map(({ path, name }) => {
         const setActive = (e) =>{
@@ -14,7 +14,7 @@ const Header = () => {
         }
         return (
             <>
-               <Link    to={path}><button key={++index} onClick={setActive} name={name} className="p-1 larger-font">{name}</button></Link>
+              { path === props.location.pathname ? <Link    to={path}><button key={++index} onClick={setActive} name={name} className="p-1 larger-font active">{name}</button></Link> : <Link    to={path}><button key={++index} onClick={setActive} name={name} className="p-1 larger-font">{name}</button></Link>}
             </>
         )
     })
@@ -37,4 +37,4 @@ const Header = () => {
         </>
     )
 }
-export default Header;
+export default withRouter(Header);
