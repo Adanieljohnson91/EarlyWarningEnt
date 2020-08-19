@@ -83,7 +83,7 @@ const ExecTeamPage = () =>{
           <p>
             In his spare time, he is also the owner of the personal investment
             blog{" "}
-            <a href="http://armchairfinancial.ca/">Armchair Financial Canada</a>
+            <a href="http://armchairfinancial.ca/" target="_blank">Armchair Financial Canada</a>
             .{" "}
           </p>
           <p />
